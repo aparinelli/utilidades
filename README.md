@@ -2,13 +2,12 @@
 
 ## Git
 
-* Clonar parte de un repositorio
+* Clonar solo una carpeta de un repositorio
 
 ```
-git clone -n --depth=1 --filter=tree:0 \
-  <>
-cd test-git-partial-clone-big-small-no-bigtree
-git sparse-checkout set --no-cone small
+git clone -n --depth=1 --filter=tree:0 <repo>
+cd <repo>
+git sparse-checkout set --no-cone <folder>
 git checkout
 ```
 

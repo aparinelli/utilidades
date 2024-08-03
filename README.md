@@ -18,7 +18,7 @@ git checkout
 git log --oneline
 ```
 
-## ffmpeg
+## FFMPEG
 
 * Recortar video
 

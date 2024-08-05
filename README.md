@@ -39,7 +39,7 @@ $ git log --oneline
 ```
 
 
-## Python
+## Python
 
 * Prettify para error tracebacks
 
